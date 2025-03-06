@@ -33,5 +33,31 @@ public class Instructor {
         return specialization;
     }
 
-    // Getters and Setters
+    public Object getExperienceYears() {
+        return experienceYears;
+    }
+
+    public List<TrainingSession> getTrainingSessions() {
+        return trainingSessions;
+    }
+
+    public void setTrainingSessions(List<TrainingSession> trainingSessions) {
+        this.trainingSessions = trainingSessions;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+
+    public void setExperienceYears(int experienceYears) {
+        this.experienceYears = experienceYears;
+    }
+
+    public Long getId() {
+        return id;
+    }
 }
